@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "About Connexion Rexdale";
+}
+
+<div class="content_area">
+<div class="about_connexion">
+        <h1 id="about_title"> @ViewBag.bodyTitle </h1>
+        @Html.Raw(ViewBag.bodyContents)
+ </div>
+   		
+ <div class="about_connexion_image">
+   			<div class="about_frame"><img src="@Url.Content("~/Content/Images/About/About_image.png")" alt="about" /></div>
+ </div>
+
+  </div> <!-- End of content_area -->
+ <script type="text/javascript" src="../../Scripts/about.js" > </script>
+

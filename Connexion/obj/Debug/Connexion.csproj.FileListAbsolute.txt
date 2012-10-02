@@ -1,0 +1,7 @@
+C:\Users\Mark\Documents\Visual Studio 2010\Projects\ASP.NET MVC\Connexion\Connexion\bin\Connexion.dll
+C:\Users\Mark\Documents\Visual Studio 2010\Projects\ASP.NET MVC\Connexion\Connexion\bin\Connexion.pdb
+C:\Users\Mark\Documents\Visual Studio 2010\Projects\ASP.NET MVC\Connexion\Connexion\bin\EntityFramework.dll
+C:\Users\Mark\Documents\Visual Studio 2010\Projects\ASP.NET MVC\Connexion\Connexion\bin\EntityFramework.xml
+C:\Users\Mark\Documents\Visual Studio 2010\Projects\ASP.NET MVC\Connexion\Connexion\obj\Debug\Connexion.csprojResolveAssemblyReference.cache
+C:\Users\Mark\Documents\Visual Studio 2010\Projects\ASP.NET MVC\Connexion\Connexion\obj\Debug\Connexion.dll
+C:\Users\Mark\Documents\Visual Studio 2010\Projects\ASP.NET MVC\Connexion\Connexion\obj\Debug\Connexion.pdb

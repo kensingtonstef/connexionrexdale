@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>@ViewBag.Title</title>
+
+<link rel="stylesheet" href="@Url.Content("~/Content/fonts/specimen_files/specimen_stylesheet.css")" type="text/css" />
+<link rel="stylesheet" href="@Url.Content("~/Content/fonts/stylesheet.css")" type="text/css" />
+<link rel="stylesheet" href="@Url.Content("~/Content/style.css")" type="text/css" />
+<link rel="stylesheet" href="@Url.Content("~/Content/nivo-slider.css")" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="../../Scripts/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="../../Scripts/JSlider.js"></script>
+
+</head>
+<body>
+   <div class="header">
+       <div class="logo">
+          <a href="http://connexionrexdale.com/"> <img src="@Url.Content("~/Content/Images/Master/CONN_Logo.png")" alt="Logo" /> </a>
+       </div> <!-- End of logo -->
+   </div> <!-- End of header -->
+   
+   <div class="line_seperator">
+   
+   </div>
+   
+   <div class="main_navigation">
+       <ul>
+          <li> <a href="@Url.Content("~/Home/About")"> <img src="@Url.Content("~/Content/Images/Master/arrow.png")" alt="arrow" class="arrow hidden" id="about" /> about connexion </a></li>
+          <li> <a href="@Url.Content("~/Home/New")">  <img src="@Url.Content("~/Content/Images/Master/arrow.png")" alt="arrow" class="arrow hidden" id="new" /> what's new </a></li>
+          <li> <a href="@Url.Content("~/Home/Connect")">  <img src="@Url.Content("~/Content/Images/Master/arrows_connect.png")" alt="arrow" class="arrow hidden" id="connect" /> connect </a></li>
+          <li> <a href="@Url.Content("~/Home/Partners")">  <img src="@Url.Content("~/Content/Images/Master/arrows_communitypartner.png")" alt="arrow" class="arrow hidden" id="partners" /> community partners </a></li>
+          <li> <a href="@Url.Content("~/Home/Contact")"> <img src="@Url.Content("~/Content/Images/Master/arrows_contactus.png")" alt="arrow" class="arrow hidden" id="contact" /> contact us </a></li>
+       </ul>
+   </div> <!-- End of main_navigation -->
+
+   <div id="slider-wrapper">  
+       <div id="slider" class="nivoSlider">
+            <img src="@Url.Content("~/Content/Images/Home/Home_slider_img.png")" alt="slider" />
+            <img src="@Url.Content("~/Content/Images/Home/Home_slider_img2.png")" alt="slider" />
+       </div>         
+   </div>
+   		
+   <div class="line_seperator" id="midline"></div>      
+	   
+	   @RenderBody()
+
+   <div class="line_seperator">
+   
+   </div>
+   		
+   <div class="footer">
+   		
+        <div class="right">
+           <ul>
+              <li> <a href=""> <img src="@Url.Content("~/Content/Images/Master/CONN_vimeo.png")" alt="Vimeo" /> </a> </li>
+              <li> <a href=""> <img src="@Url.Content("~/Content/Images/Master/CONN_youtube.png")" alt="Youtube" /> </a> </li>
+              <li> <a href=""> <img src="@Url.Content("~/Content/Images/Master/CONN_google.png")" alt="Google Plus" /> </a> </li>
+              <li> <a href="http://www.facebook.com/ConnexionRexdale"> <img src="@Url.Content("~/Content/Images/Master/CONN_facebook.png")" alt="Facebook" /> </a> </li>
+              <li> <a href="http://twitter.com/connexionrex"> <img src="@Url.Content("~/Content/Images/Master/CONN_twitter.png")" alt="Twitter" /> </a> </li>
+           </ul>
+        </div> <!-- end of right -->
+        <div class="left">
+            <b> Coypright ConnexionRexdale 2012 </b>
+        </div> <!-- End of left -->
+   </div> <!-- End of footer -->
+   <script type="text/javascript">
+
+       var _gaq = _gaq || [];
+       _gaq.push(['_setAccount', 'UA-32781919-1']);
+       _gaq.push(['_trackPageview']);
+
+       (function () {
+           var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+       })();
+
+</script>
+
+</body>
+
+</html>
+
+

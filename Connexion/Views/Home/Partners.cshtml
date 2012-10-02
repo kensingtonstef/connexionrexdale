@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Community Partners - Connexion Rexdale";
+}
+<div class="content_area">
+
+<h1> @ViewBag.bodyTitle </h1>
+@Html.Raw(ViewBag.bodyContents)
+
+ </div> <!-- End of content_area -->
+
+ <div class="ministries" id="mins">
+      <ul>
+         <li> <div class="min_img"> <a href="@Url.Content("~/Home/MomsArise")"> <img src="@Url.Content("~/Content/Images/Communitypartner/Communitypartner_img01.png")" alt="Mom's Arise" /> </a> </div> </li>
+         <li> <div class="min_img"> <a href=""> <img src="@Url.Content("~/Content/Images/Communitypartner/Communitypartner_img02.png")" alt="Rexdale Alliance Church" /> </a> </div> </li>
+         <li> <div class="min_img"> <a href=""> <img src="@Url.Content("~/Content/Images/Communitypartner/Communitypartner_img03.png")" alt="World vision" /> </a> </div></li>
+      </ul>
+   </div> <!-- End of ministries -->
+
+<script type="text/javascript" src="../../Scripts/partners.js"> </script>
