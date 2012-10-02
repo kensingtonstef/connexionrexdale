@@ -1,0 +1,301 @@
+﻿body{
+	
+	background-color: white;
+	font-family: 'AvantGardeMdBTMedium';
+}
+
+.logo
+{
+   width:455px;
+   height:171px;
+   margin:auto;
+   background-image:url('Images/Master/CONN_Logo.png');
+   background-repeat:no-repeat;
+   padding-bottom: 10px;
+}
+
+.main_navigation ul
+{
+list-style-type:none;
+width:960px;
+margin: auto;
+height: 50px;
+}
+
+.main_navigation ul li
+{
+	display:inline;
+	height:50px;
+	padding-right: 50px;
+}
+
+.arrow
+{
+	position:relative;
+	top:15px;
+}
+
+.line_seperator
+{
+margin-top: 10px;
+margin-bottom: 10px;
+background-image:url('Images/Master/CONN_header_divider.png');
+background-repeat:no-repeat;
+height:4px;
+width:1055px;
+margin: auto;
+padding-bottom: 10px;
+}
+
+.content_area
+{
+	height: auto;
+	width: 800px;
+	margin: auto;
+	overflow:hidden;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.footer
+{
+	width:800px;
+	margin:auto;
+	overflow:hidden;
+	height:auto;
+}
+
+.footer .right
+{
+	float: right;
+	width:45%;
+}
+
+.footer .right ul
+{
+	list-style-type:none;
+}
+
+.footer .right ul li
+{
+	display:inline;
+	margin-right: 10px;
+}
+
+.footer .left
+{
+	width:50%;
+	float:left;
+	margin-top: 30px;
+}
+
+/* what's new page */
+
+.content_area .right
+{
+	float:right;
+	width: 50%;
+}
+
+.content_area .left
+{
+	float: left;
+	width:50%;
+}
+
+/* End of new page */
+
+/* Connect page */
+
+.content_area .cright
+{
+	float:right;
+	width: 124px;
+	height:696px;
+	background-image:url('Images/Connect/Connect_frame.png');
+	background-repeat:no-repeat;
+	padding-top: 9px;
+	padding-left: 9px;
+}
+
+.content_area .cleft
+{
+	float: left;
+	width:80%;
+}
+
+/* End of connect */
+
+/* contact page */
+
+.contact_img
+{
+   width:350px;
+   height:404px;
+	background-image:url('Images/Contactus/Contactus_frame.png');
+	background-repeat:no-repeat;
+	padding-left:7px;
+	padding-top:7px;
+}
+
+/* end of contact */
+
+/* partners page */
+
+.ministries
+{
+	width:980px;
+	padding-left:20px;
+	margin: auto;
+}
+
+.ministries ul
+{
+	list-style: none;
+	overflow:hidden;
+}
+
+.ministries ul li
+{
+	display:inline;
+	width: 295px;
+	height: 166px;
+	padding-right: 10px;
+}
+
+.ministries ul li .min_img 
+{
+	width: 295px;
+	height: 166px;
+	background-image:url('Images/Communitypartner/Communitypartner_frame.png');
+	background-repeat:no-repeat;
+	padding-top: 15px;
+	padding-left: 15px;
+	float:left;
+}
+
+.ministries ul li .min_img a
+{
+    text-decoration:none;
+}
+
+/* End of partners page */ 
+
+/*
+****
+*********
+CSS for the Home page
+*********
+****
+*/
+
+#slider{
+margin: auto;
+margin-top:30px;
+margin-bottom:30px;
+width:860px;
+}
+
+.img_list ul{
+	list-style-type:none;
+	margin:auto;
+	width:860px;
+	padding-bottom:40px;
+}
+
+.img_list ul li{
+	display:inline;
+}
+
+.tile
+{
+	margin-right:15px;
+	background-image:url('Images/Home/Home_Image_Frame.png');
+	width:256px;
+	height:192px;
+	float:left;
+	background-repeat:no-repeat;
+	padding-bottom:40px;}
+	
+.tile img
+{
+	padding:20px 10px 10px 20px;
+}	
+/* HomePage ends Here */
+
+
+/*
+****
+*********
+CSS for the About  page
+*********
+****
+*/
+
+.about_connexion{
+	margin:0 0 0 0;
+	width:380px;
+	float:left;
+}
+
+.about_connexion h1{
+	color:#81be30;
+}
+
+.about_connexion_image{
+	float:right;
+}
+
+.about_frame{
+	background-image:url('Images/About/About_frame.png');
+	width:363px;
+	height:468px;
+	background-repeat:no-repeat;
+}
+
+.about_frame img{
+	padding:10px 0 0 10px;
+}
+
+/*About page ends here*/
+
+/* style for moms page */
+
+.question {
+	color : #D8007B;
+	font-size : 20px;
+}
+
+.blurb {
+	color : #D8007B;
+	font-size: 18px;
+}
+
+.more-content {
+	clear:both;
+}
+
+.list {
+	margin-left: -15px;
+}
+
+.tab {
+	height : auto;
+	width:100%;
+	overflow:hidden;
+}
+
+.tab .tab-right {
+	float : right;
+	width: 50%;
+	height: auto;
+}
+
+.tab .tab-left {
+	height: auto;
+	width: 50%;
+	float:left;
+}
+
+/* End of style */
+
